@@ -48,7 +48,7 @@ def main():
         for key, mv in DELTA,items():
             if key_lst[key]:
                 sum_mv[0] += mv[0]
-                sum_mv[1] += mv[1]     #后改的
+                sum_mv[1] += mv[1]     #后改
         sum_mv = [0, 0]
         if key_lst[pg.K_UP]:
             sum_mv[1] -= 5
