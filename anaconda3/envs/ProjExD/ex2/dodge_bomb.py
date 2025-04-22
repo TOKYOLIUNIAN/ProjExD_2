@@ -36,7 +36,7 @@ def main():
         screen.blit(bg_img, [0, 0]) 
 
         key_lst = pg.key.get_pressed()
-        sum_mv = [0, 0]          #后改的
+        sum_mv = [0, 0]          #后改
 
         DELTA = {
             pg.K_UP : (0, -5),
